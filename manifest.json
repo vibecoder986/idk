@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Prism Desktop",
+  "version": "1.0",
+  "description": "A beautiful new tab desktop.",
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "geolocation"
+  ],
+  "host_permissions": [
+    "https://api.open-meteo.com/*",
+    "https://geocoding-api.open-meteo.com/*",
+    "https://logo.clearbit.com/*",
+    "https://www.google.com/*",
+    "https://images.unsplash.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
